@@ -64,7 +64,7 @@ function resetGame() {
 }
 
 function gameOver(a) {
-    var gameOverAlertElement = "<b>Сосать + лежать </b><br><br> Попущенец " + span[a].dataset.player.toUpperCase() + ' Попустил <br><br>' + restartButton;
+    var gameOverAlertElement = "<b>Этот тип </b><br><br> " + span[a].dataset.player.toUpperCase() + ' получил пизды <br><br>' + restartButton;
     var div = document.createElement("div");
     div.className = "alert";
     div.innerHTML = gameOverAlertElement;
